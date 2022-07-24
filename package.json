@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hammerjs/jquery.hammer.js.git"
+    "url": "git://github.com/mikekscholz/jquery.hammer.js.git"
   },
   "keywords": [
     "hammerjs",
@@ -16,12 +16,12 @@
   ],
   "dependencies": {
     "hammerjs": "2.0.x",
-    "jquery": "2.1.x"
+    "jquery": "3.6.x"
   },
   "author": "J. Tangelder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hammerjs/jquery.hammer.js/issues"
+    "url": "https://github.com/mikekscholz/jquery.hammer.js/issues"
   },
-  "homepage": "https://github.com/hammerjs/jquery.hammer.js"
+  "homepage": "https://github.com/mikekscholz/jquery.hammer.js.git"
 }
