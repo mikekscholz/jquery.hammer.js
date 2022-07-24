@@ -4,6 +4,11 @@ jquery.hammer.js
 This jQuery plugin is just a small wrapper around the `Hammer()` class.
 It also extends the `Manager.emit` method by triggering jQuery events.
 
+Install with
+````
+npm install mikekscholz/jquery.hammer.js
+````
+
 Can be used with
 ````js
 require('jquery-hammerjs');
@@ -14,6 +19,7 @@ import 'jquery-hammerjs';
 ````
 And the Hammerjs library will be included automatically, you don't have to
 manually import or require it in your code.
+
 ````js
 $(element).hammer(options).bind("pan", myPanHandler);
 ````
