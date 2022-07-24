@@ -23,22 +23,22 @@ The Hammer instance is stored at `$element.data("hammer")`.
 Example for setting swipe options on an element
 ````js
 $('#container').hammer()
-	.data('hammer')
-	.get('swipe')
-	.set({
-		direction: Hammer.DIRECTION_ALL,
-		threshold: 200,
-		velocity: 0.1
-	});
+  .data('hammer')
+  .get('swipe')
+  .set({
+    direction: Hammer.DIRECTION_ALL,
+    threshold: 200,
+    velocity: 0.1
+  });
 
 $('#container').hammer()
-	.on("swipedown", function (ev) {
-		modalShow('#menu', '.settingsModal');
-	})
-	.on("swipeleft", function (ev) {
-		loadKeys(layoutNames[layoutNext]);
-	})
-	.on("swiperight", function (ev) {
-		loadKeys(layoutNames[layoutPrev]);
-	});
+  .on("swipedown", function (ev) {
+    modalShow('#menu', '.settingsModal');
+  })
+  .on("swipeleft", function (ev) {
+    loadKeys(layoutNames[layoutNext]);
+  })
+  .on("swiperight", function (ev) {
+    loadKeys(layoutNames[layoutPrev]);
+  });
 ````
